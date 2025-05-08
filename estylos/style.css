@@ -1,0 +1,138 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;}
+.container{
+    margin: 46px auto; 
+    padding: 40px;
+    display: flex;
+    max-width: 600px;
+    box-shadow: 0 0 10px 7px blue;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: darkgrey;
+    border-radius: 10px;
+ 
+}
+header{
+ text-align: center;
+ color: white;
+ padding-bottom: 20px;
+
+}
+
+.btn-primary{
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 150PX;
+    text-align: center;
+
+}
+
+.btn-primary:hover{
+    background-color: darkblue;
+    color: white;
+    transition: 0.3s;
+}
+.btn-primary:active{
+    background-color: navy;
+    color: white;
+    transition: 0.3s;
+}
+form{
+   
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+  
+}
+input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color:lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+input[type="number"]{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color:lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+input[Type=email]{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color:lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color:lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+
+input[type="text"]:focus{
+   border-color:blue;
+    outline: none;
+    
+}
+input[type="text"]:hover{
+    border-color:blue;
+    outline: none;
+    
+}
+input[type="number"]:hover{
+    border-color:blue;
+    outline: none;
+    
+}
+input[type="email"]:hover{
+    border-color:blue;
+    outline: none;
+}
+  input[type="password"]:hover{
+    border-color:blue;
+    outline: none;
+}
+
+input[type="number"]:focus{
+    border-color:blue;
+    outline: none;
+}
+input[type="email"]:focus{
+    border-color:blue;
+    outline: none;
+}
+   input[type="password"]:focus{
+    border-color:blue;
+    outline: none;
+}
