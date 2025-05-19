@@ -4,30 +4,36 @@
 }
 
 body{
-    background-color: black;
+    background-color:beige;
     font-family: Arial, sans-serif;}
 .container{
     margin: 46px auto; 
     padding: 40px;
     display: flex;
     max-width: 600px;
-    box-shadow: 0 0 10px 7px blue;
+    box-shadow: 0 0 10px 7px violet;
     font-family: Arial, sans-serif;
-    color: white;
+    color: black;
     font-size: 20px;
-    background-color: darkgrey;
+    background-color: white;
     border-radius: 10px;
  
 }
 header{
  text-align: center;
- color: white;
+ color:black;
  padding-bottom: 20px;
 
 }
 
+.error{
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
 .btn-primary{
-    background-color: blue;
+    background-color:plum;
     color: white;
     padding: 12px;
     border: none;
@@ -40,12 +46,12 @@ header{
 }
 
 .btn-primary:hover{
-    background-color: darkblue;
+    background-color: darkorchid;
     color: white;
     transition: 0.3s;
 }
 .btn-primary:active{
-    background-color: navy;
+    background-color:darkorchid;
     color: white;
     transition: 0.3s;
 }
@@ -63,7 +69,8 @@ input[type="text"]{
     padding: 12px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    background-color:lightgray;
+    background-color:violet;
+    opacity: 0.4;
     border-radius: 5px;
     font-size: 16px;
     color: black;
@@ -73,7 +80,8 @@ input[type="number"]{
     padding: 12px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    background-color:lightgray;
+    background-color:violet;
+    opacity: 0.4;
     border-radius: 5px;
     font-size: 16px;
     color: black;
@@ -83,7 +91,8 @@ input[Type=email]{
     padding: 12px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    background-color:lightgray;
+    background-color:violet;
+    opacity: 0.4;
     border-radius: 5px;
     font-size: 16px;
     color: black;
@@ -93,7 +102,8 @@ input[type="password"]{
     padding: 12px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    background-color:lightgray;
+   background-color:violet;
+    opacity: 0.4;
     border-radius: 5px;
     font-size: 16px;
     color: black;
@@ -101,38 +111,38 @@ input[type="password"]{
 
 
 input[type="text"]:focus{
-   border-color:blue;
+   border-color:deeppink;
     outline: none;
     
 }
 input[type="text"]:hover{
-    border-color:blue;
+    border-color:deeppink;
     outline: none;
     
 }
 input[type="number"]:hover{
-    border-color:blue;
+    border-color:deeppink;
     outline: none;
     
 }
 input[type="email"]:hover{
-    border-color:blue;
+    border-color:deeppink;
     outline: none;
 }
   input[type="password"]:hover{
-    border-color:blue;
+    border-color:deeppink;
     outline: none;
 }
 
 input[type="number"]:focus{
-    border-color:blue;
+    border-color:deeppink;
     outline: none;
 }
 input[type="email"]:focus{
-    border-color:blue;
+    border-color:deeppink;
     outline: none;
 }
    input[type="password"]:focus{
-    border-color:blue;
+    border-color:deeppink;
     outline: none;
 }
